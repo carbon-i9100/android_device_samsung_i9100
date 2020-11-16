@@ -34,5 +34,8 @@ TARGET_KERNEL_CONFIG := i9100_defconfig
 # assert
 TARGET_OTA_ASSERT_DEVICE := i9100,GT-I9100,GT-I9100P
 
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/i9100/system.prop
+
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/i9100/BoardConfigVendor.mk
