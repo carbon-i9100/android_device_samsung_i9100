@@ -24,6 +24,7 @@
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
+TARGET_USE_GENERIC_WALLPAPER := true
 
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/carbon/config/gsm.mk)
